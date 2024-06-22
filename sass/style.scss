@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import'button';
+@import'variables';
+@import'colors';
+h1{
+    color: $primary-color;
+    font-size: $base-font-size;
+}
+
+.btn {
+    border: none;
+    padding: 8px 20px;
+   
+}
+.btn-primary{
+    background-color: $bg-primary;
+    color: #fff;
+}
+.btn-success{
+    background-color: $bg-success;
+    color: #fff;
+}
+.btn-danger{
+    background-color: $bg-danger;
+    color: #fff;
+}
+nav{
+    background-color: #222;
+    padding: 5px 10px;
+    a{
+        text-decoration: none;
+        padding: 10px;
+        color: #fff;
+    }
+}
+p{
+    font-size: $font-size-md;
+    text-indent: 30px;
+    line-height: 30px;
+    a{
+        text-decoration: none;
+        color: tomato;
+    }
+}
